@@ -1,7 +1,7 @@
 {
   "name": "skeleton",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Red Social**",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/app.js",
@@ -24,7 +24,7 @@
     "pg": "^8.10.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.31.0",
-    "swagger-ui-express": "^4.6.2",
+    "swagger-ui-express": "^4.6.3",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
@@ -32,5 +32,16 @@
     "chai-http": "^4.3.0",
     "mocha": "^10.2.0",
     "nodemon": "^2.0.22"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheykoWk/instagram-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SheykoWk/instagram-api/issues"
+  },
+  "homepage": "https://github.com/SheykoWk/instagram-api#readme"
 }

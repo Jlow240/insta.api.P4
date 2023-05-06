@@ -12,7 +12,7 @@ const postLogin = (req, res) => {
             const token = jwt.sign({
                 id: data.id,
                 role: data.role
-            }, jwtSecret)
+            }, 'l1br3syl0k0s')
             res.status(200).json({token})
         })
         .catch(err => res.status(400).json(err))
